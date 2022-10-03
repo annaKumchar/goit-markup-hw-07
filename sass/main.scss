@@ -1,9 +1,13 @@
-:root {
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196f3;
-    --primary-white-color: #ffffff;
-    --title-grey-color: #2f303a;
-    --button-secondary-bgc: #f5f4fa;
-    --icon-primary-color: #afb1b8;
-}
+@import './utils/variables';
+@import './utils/reset';
+@import './utils/general';
+@import './utils/visual-hidden';
+@import './components/header';
+@import './components/hero';
+@import './components/features';
+@import './components/work';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/modal';
+@import './components/projects';
