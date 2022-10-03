@@ -174,14 +174,14 @@ img {
     ),
     url(../images/background.jpg);
 }
-.hero-title {
+.hero__title {
   font-weight: 900;
   letter-spacing: 0.06em;
   font-size: 44px;
   line-height: 1.1;
   color: var(--primary-white-color);
 }
-.primary {
+.hero__button {
   margin-top: 30px;
   border-radius: 4px;
   padding: 10px 32px 10px 32px;
@@ -250,14 +250,14 @@ img {
 .hidden-text {
   display: none;
 }
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
 }
 /* Icon features */
-.icon-feutures {
+.feutures__container {
   width: 270px;
   height: 120px;
   display: flex;
@@ -267,33 +267,33 @@ img {
   border-radius: 4px;
   margin-bottom: 30px;
 }
-.feature {
+.features__list {
   display: flex;
 }
-.feature .features-item + .features-item {
+.features__list .features__item + .features__item {
   margin-left: 30px;
 }
-.features-title {
+.features__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.3;
   margin-bottom: 10px;
 }
-.features-text {
+.features__text {
   line-height: 1.7;
   color: var(--title-text-color);
 }
 /* Чим ми займаємось */
-.work {
+.work__list {
   display: flex;
 }
-.work .item + .item {
+.work__list .work__item + .work__item {
   margin-left: 30px;
 }
-.work-section {
+.work {
   padding-top: 0;
 }
-.work-txt {
+.work__txt {
   display: block;
   padding-top: 27px;
   padding-bottom: 27px;
@@ -309,49 +309,49 @@ img {
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
 }
-.work .item {
+.work__list .work__item {
   position: relative;
 }
 
 /* Наша команда */
-.team-list {
+.team__list {
   display: flex;
 }
-.team-list .team-item + .team-item {
+.team__list .team__item + .team__item {
   margin-left: 30px;
 }
-.team-item {
+.team__item {
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.team-description {
+.team__description {
   padding: 30px 0 30px 0;
   text-align: center;
   background: var(--primary-white-color);
   border-radius: 0px 0px 4px 4px;
 }
 
-.member {
+.team__member {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
 }
-.position {
+.team__position {
   color: var(--title-text-color);
   font-size: 16px;
 }
-.team-section {
+.team {
   background-color: rgba(245, 244, 250, 1);
 }
 /* Иконки соцсетей команды */
-.icons-list {
+.team__icons-list {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 16px;
 }
-.icons {
+.team__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,11 +362,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icons-list .team-icons + .team-icons {
+.team__icons-list .team__icons + .team__icons {
   margin-left: 10px;
 }
-.icons:focus,
-.icons:hover {
+.team__icon:focus,
+.team__icon:hover {
   background-color: var(--accent-color);
   fill: var(--primary-white-color);
 }
